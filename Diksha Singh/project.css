@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "sans-serif";
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: whitesmoke;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 17px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li button {
+    background-color: rgb(38, 149, 132);
+    font-size: 15px;
+    padding: 20px;
+    border: 1px solid rgb(38, 149, 132);
+    color: white;
+    position: relative;
+    bottom: 8px;
+}
+
+#logo {
+    width: 230px;
+    height: 70px;
+    margin-left: 150px;
+    margin-right: 300px;
+    border-radius: 5px;
+    position: relative;
+    top: 0px;
+}
+
+.wallpaper {
+    background-image: url("background.jpeg");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.wallpaper h6 {
+    color: black;
+    position: relative;
+    top: 280px;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 10px 10px 8px #847b7b;
+}
+
+.wallpaper h1 {
+    color: black;
+    position: relative;
+    top: 300px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 10px 10px 8px #847b7b;
+}
+
+.wallpaper a {
+    color: black;
+    position: relative;
+    top: 320px;
+    margin-left: 700px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px 15px;
+}
+
+.avail {
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+
+}
+
+.avail form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    background-color: #fff2f2;
+    box-shadow: 5px 5px 8px #847b7b;
+}
+
+input {
+    opacity: 0.7;
+    border-radius: 3px;
+}
+
+select {
+    opacity: 0.7;
+    border-radius: 3px;
+}
+
+.avail form button {
+    background-color: rgb(38, 149, 132);
+    font-size: 16px;
+    padding: 8px 40px;
+    border: 1px solid rgb(38, 149, 132);
+    border-radius: 3px;
+    color: white;
+}

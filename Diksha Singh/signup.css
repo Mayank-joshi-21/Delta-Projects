@@ -1,0 +1,103 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.main {
+    width: 1000px;
+    height: 700px;
+    border-radius: 6px;
+    background-color: bisque;
+    margin: auto;
+    display: flex;
+}
+
+#image img {
+    display: block;
+    width: 95%;
+    height: 50%;
+}
+
+#image #image1 {
+    border-radius: 6px 0px 0px;
+}
+
+#image #image2 {
+    border-radius: 0px 0px 0px 6px;
+}
+
+#signup {
+    text-align: center;
+    margin: 20px;
+}
+
+#signup #heading {
+    font-size: 20px;
+}
+
+#signup #or {
+    margin: 10px;
+    font-size: 20px;
+}
+
+#signup a i {
+    margin: 5px;
+    font-size: 20px;
+}
+
+form {
+    width: 75%;
+    height: 78%;
+    background-color: burlywood;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+form label {
+    position: relative;
+    top: 20px;
+}
+
+input {
+    width: 290px;
+    height: 35px;
+    border-radius: 30px;
+    padding: 0px 10px;
+    margin: 10px;
+    position: relative;
+    top: 20px;
+}
+
+.submit {
+    font-size: 13px;
+    opacity: 0.8;
+    margin: 25px;
+}
+
+#check {
+    width: 15px;
+    height: 15px;
+}
+
+.submit span {
+    position: relative;
+    top: 20px;
+}
+
+.submit button {
+    border-radius: 3px;
+    border: 1px solid rgb(124, 124, 212);
+    background-color: rgb(82, 82, 177);
+    color: white;
+    margin: 30px 20px 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+#signup p {
+    font-size: 13px;
+}
+
+#signup a {
+    font-size: 13px;
+}
